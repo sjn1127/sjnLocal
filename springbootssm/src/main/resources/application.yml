@@ -1,0 +1,10 @@
+server:
+  port: 9527
+  #配置数据库的链接
+spring:
+  datasource:
+    password: qishimeiyoumima
+    username: root
+    url: jdbc:mysql:///p2p?useUnicode=true&characterEncoding=UTF8
+    driver-class-name: org.gjt.mm.mysql.Driver
+    type: com.alibaba.druid.pool.DruidDataSource #指定连接池的类型,springboot会自动帮我们将数据配置过去
